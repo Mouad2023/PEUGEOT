@@ -1,0 +1,183 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+.body{
+font-family: 'Cairo', sans-serif;
+height: 4000px;
+}
+/*end fonts*/
+
+/*starthead*/
+.header{
+    background-color: rgba(248, 109, 10, 0.76);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header a{
+    float: right;
+    margin-top:6px;
+}
+/*endhead*/
+
+/*start slider*/
+.carousel-indicators li{
+    height: 15px;
+    background-color:rgba(128, 128, 128, 0.543);
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 3;
+}
+/*end slider*/
+
+/*start feutures*/
+.feutures{
+    margin-top: 50px;
+}
+.feutures h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.feutures i{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(250, 168, 35);
+    color: white;
+    line-height: 100px;
+    font-size: 40px;
+}
+.feutures h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feutures p{
+    color: rgb(88, 81, 81);
+    line-height: 1.7;
+}
+/*end feutures*/
+
+/*start our team*/
+.our-team{
+    background-color: rgba(238, 238, 238, 0.831);
+    padding: 20px;
+    margin: auto;
+}
+/*end our team*/
+
+/*start static*/
+.Static{
+    background-image: url('../Images/stat.webp');
+    width: 100%;
+    height: 800px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 3px solid rgb(250, 168, 35);
+}
+.Static .overflay{
+    background-color: rgba(0, 0, 0, 0.333);
+    padding:20%;
+    width: 100%;
+    height: 100%;
+}
+.Static .overflay h5{
+    color: white;
+    font-size: 50px;
+}
+.Static .overflay p{
+    color: white;
+    font-size: 50px;
+}
+/*end static*/
+
+/*start our_costumer*/
+.our_costumer{
+    background-color: rgba(238, 238, 238, 0.614);
+    border-top: 3px solid rgb(250, 168, 35);
+    line-height: 200px;
+    margin-top: 40px;
+    border-bottom: 3px solid rgb(250, 168, 35);
+}
+.our_costumer h2{
+    font-size: 50px;
+}
+/*end our_costumer*/
+
+/*start recent_news*/
+.recent_news{
+    background-color: #eee;
+    margin-top: 40px;
+    border-top: 3px solid rgb(250, 168, 35);
+    border-bottom: 3px solid rgb(250, 168, 35);
+}
+.recent_news h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.recent_news .btn-warning:hover{
+    background-color: rgba(255, 153, 0, 0.863);
+}
+/*end recent_news*/
+
+/*start footer*/
+footer{
+    background-color:rgba(250, 168, 35, 0.742) ;
+    color: rgb(5, 54, 86);
+    padding-top: 20px;
+    margin-top:50px ;
+    border-top:2px solid black;
+}
+footer a{
+    color:rgba(255, 255, 255, 0.874);
+}
+footer a:hover{
+    background-color: rgba(255, 166, 0, 0.427);
+}
+footer ul li{
+    list-style: none;
+}
+.social{
+    display: flex;
+    margin: auto;
+}
+.social li{
+    margin: 0px 10px;
+}
+.social a:hover{
+    background-color: rgb(242, 247, 247);
+    height: 45px;
+}
+.footer1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+/*end footer*/
+
+/*start jumbotron*/
+.jumbotron{
+   padding: 20px; 
+   display: flex;
+   justify-content: space-between; 
+}
+.jumbotron .blog_info{
+    flex: 2;
+}
+.jumbotron .blog_img{
+    flex: 1;
+}
+/*end jumbotron*/
+
+/*start detail blog*/
+.blog_details p{
+    line-height:2;
+    padding: 10px;
+}
+/*end detail blog*/
